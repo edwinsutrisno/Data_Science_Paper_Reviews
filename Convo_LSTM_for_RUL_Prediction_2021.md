@@ -4,3 +4,4 @@
 
 ---
 
+The paper demonstrates using a form of artificial neural network model to address a problem with data that has both time and spatial features.
