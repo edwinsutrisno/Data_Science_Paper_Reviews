@@ -4,7 +4,7 @@
 
 ---
 
-The paper demonstrates the application of a new construct of deep learning model which combines convolutional feature with an LSTM. The argument behind hybridizing the LSTM with CNN is that, in some cases, this setup will allow simpler feature engineering (i.e. data pre-processing) and produce more accurate prediction when analyzing data that has both temporal and spatial dependency. 
+This paper demonstrates the application of a new construct of deep learning model which combines convolutional feature with an LSTM. The argument behind hybridizing the LSTM with CNN is that, in some cases, this setup will allow simpler feature engineering (i.e. data pre-processing) and produce more accurate prediction when analyzing data that has both temporal and spatial dependency. 
 
 An example given in the paper is the case of analyzing vibration data to predict the remaining useful life (RUL) of bearing life test data. In traditional ways of modeling vibration, accelerometer signal is extracted into statistical features such as RMSE, skewness, power spectrum, kurtosis and others and fed into a predictive model. This method can involve many features and rely on the person’s judgment of what features to include. 
 
