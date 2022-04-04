@@ -36,10 +36,11 @@ A metric to evaluate accuracy that is common in object detection is the Intersec
 
 The visual AE is compared with other methods of Random Walk, a numerical 1D Auto Encoder, and ARIMA. Four types of datasets were used in the evaluation: harmonic data, Ornstein-Uhlenbeck (OU) data, ECG data, and financial stock data. The accuracy results are as follow:
 
-result_table_link
+![Figure7](/reference_figures/TSAE_Figure7.JPG)
 
 To make the case that IoU is a better metric in assessing prediction accuracy over typical forecast metrics SMAPE (symmetric mean absolute percentage error) and MASE (mean absolute scaled error), consider the following prediction output and their corresponding metrics. Keep in mind that for IoU, the higher is the better and is scaled from 0-1.
-Figure8Link
+
+![Figure8](/reference_figures/TSAE_Figure8.JPG)
 
 For instance, in Figure 8i showcasing the harmonic data prediction, the traditional SMAPE and MASE metrics suggest that the numerical AE performed better than the visual AE, but a human visual inspection would suggest otherwise. Another case is in Figure 8ii, the SMAPE and MAPE metrics suggest that the NumAE and VisualAE had very similar performances followed closely behind by ARIMA, but a human visual inspection would clearly see that the VisualAE was the only model that captured the long term trend of the data. The IoU metric consistently agreed with these quality assessments.
 
